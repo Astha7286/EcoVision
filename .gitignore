@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+.streamlit/secrets.toml
+# Dataset and trained weights are not committed by default
+data/waste/
+models/*.keras
+models/*.h5
+models/class_names.txt
